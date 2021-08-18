@@ -1,0 +1,30 @@
+2021/08/19 00:26:28 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_US 
+2021/08/19 00:26:28 INFO  - jmeter.JMeter: Loading user properties from: D:\Leech\customer-supermarket-app\target\jmeter\bin\user.properties 
+2021/08/19 00:26:28 INFO  - jmeter.JMeter: Loading system properties from: D:\Leech\customer-supermarket-app\target\jmeter\bin\system.properties 
+2021/08/19 00:26:28 INFO  - jmeter.JMeter: Copyright (c) 1998-2016 The Apache Software Foundation 
+2021/08/19 00:26:28 INFO  - jmeter.JMeter: Version 3.1 r1770033 
+2021/08/19 00:26:28 INFO  - jmeter.JMeter: java.version=11.0.11 
+2021/08/19 00:26:28 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
+2021/08/19 00:26:28 INFO  - jmeter.JMeter: os.name=Windows 10 
+2021/08/19 00:26:28 INFO  - jmeter.JMeter: os.arch=amd64 
+2021/08/19 00:26:28 INFO  - jmeter.JMeter: os.version=10.0 
+2021/08/19 00:26:28 INFO  - jmeter.JMeter: file.encoding=Cp1252 
+2021/08/19 00:26:28 INFO  - jmeter.JMeter: Max memory     =2124414976 
+2021/08/19 00:26:28 INFO  - jmeter.JMeter: Available Processors =8 
+2021/08/19 00:26:28 INFO  - jmeter.JMeter: Default Locale=English (United States) 
+2021/08/19 00:26:28 INFO  - jmeter.JMeter: JMeter  Locale=English (United States) 
+2021/08/19 00:26:28 INFO  - jmeter.JMeter: JMeterHome=D:\Leech\customer-supermarket-app\target\jmeter 
+2021/08/19 00:26:28 INFO  - jmeter.JMeter: user.dir  =D:\Leech\customer-supermarket-app 
+2021/08/19 00:26:28 INFO  - jmeter.JMeter: PWD       =D:\Leech\customer-supermarket-app 
+2021/08/19 00:26:28 INFO  - jmeter.JMeter: IP: 192.168.225.169 Name: LAPTOP-19J1CF0T FullName: LAPTOP-19J1CF0T 
+2021/08/19 00:26:28 INFO  - jmeter.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'D:\Leech\customer-supermarket-app\target\jmeter\results\dashboard' 
+2021/08/19 00:26:28 INFO  - jmeter.report.dashboard.ReportGenerator: ReportGenerator will use for Parsing the separator:',' 
+2021/08/19 00:26:28 FATAL - jmeter.JMeter: An error occurred:  java.lang.IllegalArgumentException: Cannot read test results file : D:\Leech\customer-supermarket-app\target\jmeter\results\*.jtl
+	at org.apache.jmeter.report.dashboard.ReportGenerator.<init>(ReportGenerator.java:134)
+	at org.apache.jmeter.JMeter.start(JMeter.java:480)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:259)
+
